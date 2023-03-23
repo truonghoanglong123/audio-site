@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.play-btn {
+  color: #eb5a76;
+  background-color: #fff2f5;
+  border: 2px solid #eb5a76;
+  padding: 6rem 5rem;
+  font-size: 2rem;
+  height: auto;
+  margin: 3rem 2rem 0rem 1rem;
+  cursor: pointer;
+}
+
+.outfill {
+  border: 2px solid #eb5a76;
+  padding: 6rem 5rem;
+  font-size: 2rem;
+  height: auto;
+  margin: 3rem 2rem 0rem 1rem;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
