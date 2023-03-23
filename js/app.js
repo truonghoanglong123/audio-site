@@ -8,6 +8,10 @@ window.addEventListener("DOMContentLoaded", () => {
     buttons.forEach((button) => {
       button.addEventListener('click', () => {
         const index = button.dataset.index;
+        if (currentAudio && !currentAudio.paused) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+          }
         currentAudio = new Audio(audioFiles[index]);
         currentAudio.play();
         downloadButton.disabled = false;
