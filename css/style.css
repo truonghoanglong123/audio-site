@@ -11,30 +11,51 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 15rem;
+  margin-top: 8rem;
 }
 
 .play-btn {
   color: #eb5a76;
   background-color: #fff2f5;
   border: 2px solid #eb5a76;
-  padding: 6rem 5rem;
   font-size: 2rem;
   height: auto;
   margin: 3rem 2rem 0rem 1rem;
   cursor: pointer;
+  width: 20rem;
+  height: 15rem;
 }
 
-.outfill {
-  background-color: #696305;
+.download-btn {
+  color: #eb5a76;
   border: 2px solid #eb5a76;
-  padding: 6rem 5rem;
   font-size: 2rem;
   height: auto;
   margin: 3rem 2rem 0rem 1rem;
   cursor: pointer;
-  -moz-columns: white;
-       columns: white;
+  width: 20rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stop {
+  border: 2px solid #eb5a76;
+  font-size: 2rem;
+  height: auto;
+  margin: 3rem 2rem 0rem 1rem;
+  cursor: pointer;
+  color: #a70021;
+  background-color: #fff2f5;
+  width: 20rem;
+  height: 5rem;
 }
 
 .playing {
@@ -67,4 +88,14 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff2f5;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:disabled {
+  background-color: #ddd;
+  color: #7c7b7b;
+  cursor: not-allowed;
 }/*# sourceMappingURL=style.css.map */
